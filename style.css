@@ -1,0 +1,257 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Section one style  */
+
+.section-1{
+    background-color: rgb(191, 203, 211);
+    height: 500px;
+    clip-path: polygon(0% 0%, 100% 0, 100% 31%, 68% 100%, 0% 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    border-bottom: coral;
+    border-width: 0 0 5px 0;
+    border-style: solid;
+
+}
+
+.nav-bar img{
+    margin-right: 20%;
+    width: 35px ;
+    height: 35px ;
+    margin-left: 2%;
+}
+
+.nav-bar{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    align-items: center ;
+    border-radius: 40px;
+}
+
+.nav-bar a{
+    text-decoration: currentColor;
+    color: rgba(12, 11, 11, 0.719);
+    font-size: small;
+    font-weight: bold;
+}
+
+.button-1{
+    background-color: rgba(250, 72, 1, 0.979);
+    color: seashell;
+    font-weight: 500;
+    width: 180px;
+    height: 50px;
+    border-radius: 70px;
+    border: 0;
+    font-size: small;
+    font-weight: bold;
+}
+
+.pic1{
+    width: 400px;
+    height: 350px;
+}
+
+.introductory{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    height: 320px;
+    margin: 10px;
+    padding-left: 20%;
+
+}
+
+.introdutory div{
+    width: 50%;
+}
+
+.introductory-text{
+    display: flex;
+    padding: 5% 0 5% ;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.introductory-text p{
+    width: 100%;
+}
+
+.p1{
+    font-size: 25px;
+    color: rgb(255, 106, 0);
+}
+
+h1{
+    font-size:50px;
+}
+
+.button-2, .button-3{
+    background-color: rgba(250, 72, 1, 0.979);
+    color: seashell;
+    font-weight: 500;
+    width: 180px;
+    height: 45px;
+    border-radius: 70px;
+    border: 0;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 20px 10px 0 0;    
+}
+
+.button-3{
+    background-color: rgb(33, 32, 56);
+}
+
+/* ========================================= */
+
+/* Section two Style */
+.section-2{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.section-2-image img{
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    border-color: rgb(232, 236, 238);
+    border-width: 5px;
+    border-style: solid;
+}
+
+.life-story{
+    width: 400px;
+    margin: 0 20px 0 20px;
+    height: 400px;
+}
+
+.life-story h2, p, progress{
+    margin-bottom: 10px;
+    width: 100%;
+} 
+
+.life-story h2{
+    font-size: 30px;
+}
+
+.life-story img{
+    height: 16px;
+    width: 16px;
+}
+
+/* =================================================== */
+
+/* Section three Style */
+.section-3{
+    height: 250px;
+    background-color: rgb(191, 203, 211);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 40px 0 0 0;
+    border-color:  rgb(197, 79, 37);
+    border-style: solid;
+    border-width: 3px 0 3px 0;
+    padding: 5% 18% 5% 18%;
+}
+
+.section-3 img{
+    height: 100px;
+    width: 100px;
+}
+
+.section-3 h2{
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.section-3 p{
+    font-weight: bold;
+    position:relative;
+    width: 80%;
+    left: 20%;
+    font-size: large;
+}
+
+/* ========================================= */
+
+/* section four style */
+.section-4{
+    height: 700px;
+    margin: 30px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-4 h2{
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.similarities{
+    height: 700px;
+    width: 840px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.similarities div{
+    width: 200px;
+    height: 290px;
+    align-content: space-around;
+    background-color: rgb(191, 203, 211);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.similarities div *{
+    margin-bottom: 8px;
+}
+
+.button-4{
+    background-color: rgba(250, 72, 1, 0.979);
+    color: seashell;
+    font-weight: 500;
+    width: 180px;
+    height: 45px;
+    border-radius: 70px;
+    border: 0;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 20px 10px 0 0;    
+}
+
+.button-5{
+    background-color:  rgb(191, 203, 211);
+    color: black;
+    font-weight: 500;
+    width: 180px;
+    height: 45px;
+    border-radius: 70px;
+    border-width: 2px;
+    border-color:rgba(250, 72, 1, 0.979);
+    font-size: 10px;
+    font-weight: bold;
+    margin: 20px 10px 0 0;    
+}
