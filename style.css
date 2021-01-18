@@ -6,10 +6,12 @@
 
 /* Section one style  */
 
+/* start section 1 */
 .section-1{
-    background-color: rgb(191, 203, 211);
-    height: 500px;
+    background-color: hsl(252deg 18% 86% / 45%);
+    height: 520px;
     clip-path: polygon(0% 0%, 100% 0, 100% 31%, 68% 100%, 0% 100%);
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,6 +21,8 @@
     border-style: solid;
 
 }
+
+
 
 .nav-bar img{
     margin-right: 20%;
@@ -53,7 +57,7 @@
     width: 180px;
     height: 50px;
     border-radius: 70px;
-    border: 0;
+    border: none;
     font-size: small;
     font-weight: bold;
 }
@@ -88,6 +92,12 @@
     width: 100%;
 }
 
+.introductory-text-image{
+    position: absolute;
+    right: 10%;
+    top: 29%;
+    z-index: 2;
+}
 .p1{
     font-size: 25px;
     color: rgb(255, 106, 0);
@@ -104,7 +114,7 @@ h1{
     width: 180px;
     height: 45px;
     border-radius: 70px;
-    border: 0;
+    border: hidden;
     font-size: 10px;
     font-weight: bold;
     margin: 20px 10px 0 0;    
@@ -114,6 +124,7 @@ h1{
     background-color: rgb(33, 32, 56);
 }
 
+/* end section 2 */
 /* ========================================= */
 
 /* Section two Style */
@@ -149,6 +160,11 @@ h1{
     font-size: 30px;
 }
 
+progress::-webkit-progress-value {
+    color: orange;
+  }
+  
+
 .life-story img{
     height: 16px;
     width: 16px;
@@ -159,7 +175,7 @@ h1{
 /* Section three Style */
 .section-3{
     height: 250px;
-    background-color: rgb(191, 203, 211);
+    background-color: hsl(252deg 18% 86% / 45%);
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -219,7 +235,7 @@ h1{
     width: 200px;
     height: 290px;
     align-content: space-around;
-    background-color: rgb(191, 203, 211);
+    background-color: hsl(252deg 18% 86% / 45%);
     margin: 20px;
     padding: 20px;
     text-align: center;
@@ -243,7 +259,7 @@ h1{
 }
 
 .button-5{
-    background-color:  rgb(191, 203, 211);
+    background-color:  hsl(252deg 18% 86% / 45%);
     color: black;
     font-weight: 500;
     width: 180px;
@@ -254,4 +270,9 @@ h1{
     font-size: 10px;
     font-weight: bold;
     margin: 20px 10px 0 0;    
+}
+
+
+input:focus{
+    outline: none;
 }
